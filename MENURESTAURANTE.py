@@ -77,8 +77,9 @@ while True:
         break
     elif clientes in 'S':
         print('Perfeito!!!')
+        print('Vamos para o próximo cliente ...')
         sleep(1)
-        os.system('cls')
+        print('\033c', end = ' ')
         totalclientes+=1
         todospratos.clear()
     else:

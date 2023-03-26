@@ -79,7 +79,7 @@ while True:
         print('Perfeito!!!')
         print('Vamos para o próximo cliente ...')
         sleep(1)
-        print('\033c', end = ' ')
+        os.system('cls')
         totalclientes+=1
         todospratos.clear()
     else:
